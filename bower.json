@@ -1,8 +1,8 @@
 {
   "name": "TinyNav.js",
   "main": "tinynav.js",
-  "version": "v1.1",
-  "homepage": "https://github.com/viljamis/TinyNav.js",
+  "version": "v1.2",
+  "homepage": "https://github.com/axisdefined/TinyNav.js",
   "authors": [
     "@nicoandrade && @viljamis"
   ],
