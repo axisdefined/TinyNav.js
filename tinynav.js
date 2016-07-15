@@ -1,7 +1,6 @@
-/*! http://tinynav.viljamis.com v1.2 by @viljamis */
 (function ($, window, i) {
   $.fn.tinyNav = function (options) {
-
+  
     // Default settings
     var settings = $.extend({
       'active' : 'selected', // String: Set the "active" class
@@ -79,4 +78,4 @@
     });
 
   };
-})(jQuery, this, 0);
+})(jQuery, window, 0);
