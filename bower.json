@@ -1,11 +1,8 @@
 {
-  "name": "TinyNav.js",
+  "name": "tinynav",
   "main": "tinynav.js",
   "version": "v1.2",
   "homepage": "https://github.com/axisdefined/TinyNav.js",
-  "authors": [
-    "@nicoandrade && @viljamis"
-  ],
   "description": "Responsive navigation plugin that weighs just 443 bytes",
   "keywords": [
     "responsive",
