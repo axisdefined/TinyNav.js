@@ -6,7 +6,8 @@
       'active' : 'selected', // String: Set the "active" class
       'header' : '', // String: Specify text for "header" and show header instead of the active item
       'indent' : '- ', // String: Specify text for indenting sub-items
-      'label'  : '' // String: sets the <label> text for the <select> (if not set, no label will be added)
+      'label'  : '', // String: sets the <label> text for the <select> (if not set, no label will be added)
+      'onChange': function () {}
     }, options);
 
     return this.each(function () {
@@ -56,9 +57,7 @@
         }
 
         // Change window location
-        $select.change(function () {
-          window.location.href = $(this).val();
-        });
+        $select.change(settings.onChange);
 
         // Inject select
         $(l_namespace_i).after($select);
